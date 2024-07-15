@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff1d4;
+}
+
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.btn__prev i,
+.btn__next i {
+  color: green;
+  font-size: 2rem;
+}
+
+.slides {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.each__slide {
+  width: 10rem;
+  height: 10rem;
+  background-color: yellow;
+}
+
+.main > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 2rem;
+}
